@@ -1,0 +1,4 @@
+$blue: #2f5572;
+.hello {
+  background-color: $blue;
+}
