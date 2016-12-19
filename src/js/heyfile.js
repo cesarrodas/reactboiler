@@ -6,6 +6,6 @@ export class Hello extends React.Component {
       <div>
         Hello World!
       </div>
-    )
+    );
   }
 }
