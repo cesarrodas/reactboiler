@@ -3,8 +3,8 @@ import React from 'react';
 export class Hello extends React.Component {
   render(){
     return (
-      <div className="hello">
-        Hello World!
+      <div>
+        <h1 className="hello">Hello!!</h1>
       </div>
     );
   }
