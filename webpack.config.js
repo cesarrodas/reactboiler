@@ -1,7 +1,9 @@
+const path = require('path');
+
 module.exports = {
   entry: './src/main.js',
   output: {
-    path: 'build',
+    path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js'
   },
   devServer: {
@@ -14,7 +16,7 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /(node_modules)/,
-        loader: 'babel',
+        loader: 'babel-loader',
         query: {
           presets: ['es2015', 'react']
         }
